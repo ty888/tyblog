@@ -142,10 +142,10 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = "3tyang@gmail.com"
+      # gravatarEmail = "3tyang@gmail.com"
       # 主页显示头像的 URL
-      avatarURL = "/ty.png"
-      # avatarURL = "https://p3-passport.byteacctimg.com/img/user-avatar/e719ca00ee000913aa8dc6cf7a1fa066~180x180.awebp"
+      # avatarURL = "/ty.png"
+      avatarURL = "https://p3-passport.byteacctimg.com/img/user-avatar/e719ca00ee000913aa8dc6cf7a1fa066~180x180.awebp"
       # 主页显示的网站副标题
       subtitle = "不会打游戏的羽毛球爱好者不是好的铲屎官"
       # 是否为副标题显示打字机动画
@@ -161,7 +161,7 @@ theme = "LoveIt"
     Bilibili = "28374083"
     # Weibo = "6319336063"
     # Linkedin = "xxxx"
-    # Twitter = "xxxx"
+    Twitter = "@tianyang2022"
     # Instagram = "xxxx"
     # Facebook = "xxxx"
     # Telegram = "xxxx"

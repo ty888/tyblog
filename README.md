@@ -3,4 +3,4 @@
 
 ## 预览
 
-个人主页：[ty888.github.com](ty888.github.com)
+个人主页：[ty888.github.io](ty888.github.io)
