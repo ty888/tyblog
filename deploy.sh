@@ -19,7 +19,7 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git push git@e.coding.net:jiang_bao/jiang_bao.git
+git push git@e.coding.net:ty888/ty888.github.io.git
 
 # Come Back up to the Project Root
 cd ..
