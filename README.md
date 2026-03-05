@@ -1,6 +1,44 @@
 # tyblog
+
 基于[`hugo`](https://gohugo.io/)搭建的个人博客
 
 ## 预览
 
 个人主页：[ty888.github.io](ty888.github.io)
+
+## Start
+
+1. install hugo
+
+   ```shell
+   brew install hugo
+   ```
+
+2. clone repository
+
+   ```shell
+   git clone git@github.com:ty888/tyblog.git
+   ```
+
+3. init submodule
+   ```shell
+   git submodule update --init --recursive
+   ```
+
+## Usage
+
+1. 新建文章
+
+   ```shell
+   hugo new "posts/new-post-title.md"
+   ```
+
+2. 本地服务
+
+   ```shell
+   hugo serve
+   ```
+
+3. 构建与部署
+
+   本地开发完成后，直接提交至仓库，无需任何操作，目前使用`github actions`自动构建部署，具体配置见仓库下`./github/workflows/deploy.yaml`
