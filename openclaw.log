@@ -1,0 +1,155 @@
+│
+◇  Doctor warnings ──────────────────────────────────────────────────────╮
+│                                                                        │
+│  - channels.feishu.groupPolicy is "allowlist" but groupAllowFrom (and  │
+│    allowFrom) is empty — all group messages will be silently dropped.  │
+│    Add sender IDs to channels.feishu.groupAllowFrom or                 │
+│    channels.feishu.allowFrom, or set groupPolicy to "open".            │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+[90m2026-03-11T11:27:39.074+08:00[39m [36m[gateway][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[90m2026-03-11T11:27:39.075+08:00[39m [36m[gateway][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[90m2026-03-11T11:27:39.076+08:00[39m [36m[gateway][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[90m2026-03-11T11:27:39.076+08:00[39m [36m[gateway][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[90m2026-03-11T11:27:39.077+08:00[39m [36m[gateway][39m [36mfeishu_bitable: Registered bitable tools[39m
+[90m2026-03-11T11:27:39.094+08:00[39m [35m[canvas][39m [36mhost mounted at http://127.0.0.1:3000/__openclaw__/canvas/ (root /Users/sm3360/.openclaw/canvas)[39m
+[90m2026-03-11T11:27:39.134+08:00[39m [36m[heartbeat][39m [36mstarted[39m
+[90m2026-03-11T11:27:39.136+08:00[39m [32m[health-monitor][39m [36mstarted (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)[39m
+[90m2026-03-11T11:27:39.137+08:00[39m [36m[gateway][39m [36magent model: bailian/qwen3.5-plus[39m
+[90m2026-03-11T11:27:39.138+08:00[39m [36m[gateway][39m [36mlistening on ws://127.0.0.1:3000, ws://[::1]:3000 (PID 34223)[39m
+[90m2026-03-11T11:27:39.139+08:00[39m [36m[gateway][39m [36mlog file: /tmp/openclaw/openclaw-2026-03-11.log[39m
+2026-03-11T11:27:39.146+08:00 [info]: [ 'client ready' ]
+[90m2026-03-11T11:27:39.170+08:00[39m [36m[browser/server][39m [36mBrowser control listening on http://127.0.0.1:3002/ (auth=token)[39m
+[90m2026-03-11T11:27:39.175+08:00[39m [33m[feishu][39m [36mstarting feishu[default] (mode: websocket)[39m
+[90m2026-03-11T11:27:39.866+08:00[39m [33m[feishu][39m [36mfeishu[default]: bot open_id resolved: ou_d8d5e7bd11bb3e9a1bd34c32bcf2efb3[39m
+[90m2026-03-11T11:27:39.871+08:00[39m [33m[feishu][39m [36mfeishu[default]: dedup warmup loaded 11 entries from disk[39m
+2026-03-11T11:27:39.873+08:00 [info]: [ 'event-dispatch is ready' ]
+[90m2026-03-11T11:27:39.878+08:00[39m [33m[feishu][39m [36mfeishu[default]: starting WebSocket connection...[39m
+2026-03-11T11:27:39.880+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+[90m2026-03-11T11:27:39.883+08:00[39m [33m[feishu][39m [36mfeishu[default]: WebSocket client started[39m
+2026-03-11T11:27:40.621+08:00 [info]: [ '[ws]', 'ws client ready' ]
+[90m2026-03-11T11:28:30.546+08:00[39m [36m[ws][39m [33munauthorized conn=a386a1c4-591d-4bbe-b67a-11c25017b5ed remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8 reason=token_missing[39m
+[90m2026-03-11T11:28:30.559+08:00[39m [36m[ws][39m [33mclosed before connect conn=a386a1c4-591d-4bbe-b67a-11c25017b5ed remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:3000 host=127.0.0.1:3000 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)[39m
+[90m2026-03-11T11:28:36.765+08:00[39m [36m[ws][39m [33munauthorized conn=5f9e71a0-0cd6-450b-8cfc-a16fb0d3732b remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8 reason=token_missing[39m
+[90m2026-03-11T11:28:36.770+08:00[39m [36m[ws][39m [33mclosed before connect conn=5f9e71a0-0cd6-450b-8cfc-a16fb0d3732b remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:3000 host=127.0.0.1:3000 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)[39m
+[90m2026-03-11T11:28:37.792+08:00[39m [36m[ws][39m [33munauthorized conn=ee3ebc77-287e-4880-8205-62273e1dfd3c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8 reason=token_missing[39m
+[90m2026-03-11T11:28:37.797+08:00[39m [36m[ws][39m [33mclosed before connect conn=ee3ebc77-287e-4880-8205-62273e1dfd3c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:3000 host=127.0.0.1:3000 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)[39m
+2026-03-11T11:30:02.945+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a93a707746ba1bde/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '20260311112953C8127E3E7624432C2753',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260311112953C8127E3E7624432C2753&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array]
+    }
+  ]
+]
+[90m2026-03-11T11:30:02.948+08:00[39m [33m[feishu][39m [36mignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a93a707746ba1bde/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant[39m
+[90m2026-03-11T11:30:02.949+08:00[39m [33m[feishu][39m [36mfeishu[default]: received message from ou_99f7128c07f09884d106901dc47ba68e in oc_5349768373aa004b82ccffc8548086fd (group)[39m
+[90m2026-03-11T11:30:02.951+08:00[39m [33m[feishu][39m [36mfeishu[default]: group oc_5349768373aa004b82ccffc8548086fd not in groupAllowFrom (groupPolicy=allowlist)[39m
+[90m2026-03-11T11:31:06.915+08:00[39m [34m[reload][39m [36mconfig change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.compaction, channels.feishu.groupPolicy)[39m
+[90m2026-03-11T11:31:06.919+08:00[39m [31m[gateway/channels][39m [36mrestarting feishu channel[39m
+[90m2026-03-11T11:31:06.921+08:00[39m [33m[feishu][39m [36mfeishu[default]: abort signal received, stopping[39m
+[90m2026-03-11T11:31:06.928+08:00[39m [33m[feishu][39m [36mstarting feishu[default] (mode: websocket)[39m
+[90m2026-03-11T11:31:06.929+08:00[39m [34m[reload][39m [36mconfig hot reload applied (channels.feishu.groupPolicy)[39m
+[90m2026-03-11T11:31:06.930+08:00[39m [33m[feishu][39m [36mfeishu[default]: bot open_id resolved: ou_d8d5e7bd11bb3e9a1bd34c32bcf2efb3[39m
+[90m2026-03-11T11:31:06.932+08:00[39m [33m[feishu][39m [36mfeishu[default]: dedup warmup loaded 13 entries from disk[39m
+2026-03-11T11:31:06.933+08:00 [info]: [ 'event-dispatch is ready' ]
+[90m2026-03-11T11:31:06.934+08:00[39m [33m[feishu][39m [36mfeishu[default]: starting WebSocket connection...[39m
+2026-03-11T11:31:06.935+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+[90m2026-03-11T11:31:06.938+08:00[39m [33m[feishu][39m [36mfeishu[default]: WebSocket client started[39m
+2026-03-11T11:31:07.726+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-11T12:09:41.807+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T12:09:41.816+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T13:09:42.857+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T13:09:42.864+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T13:21:45.156+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T13:22:30.968+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:09:43.894+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:09:43.901+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:19:04.623+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:53:58.512+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:54:02.740+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:58:19.993+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T14:58:19.997+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T15:17:52.668+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T15:17:52.674+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-11T15:19:27.454+08:00 [info]: [ '[ws]', 'reconnect' ]
+[90m2026-03-11T15:45:36.996+08:00[39m [34m[reload][39m [36mconfig change detected; evaluating reload (meta.lastTouchedAt, channels.feishu.appId, channels.feishu.appSecret, channels.feishu.accounts)[39m
+[90m2026-03-11T15:45:37.002+08:00[39m [31m[gateway/channels][39m [36mrestarting feishu channel[39m
+[90m2026-03-11T15:45:37.004+08:00[39m [33m[feishu][39m [36mfeishu[default]: abort signal received, stopping[39m
+[90m2026-03-11T15:45:37.010+08:00[39m [33m[feishu][39m [36mstarting feishu[xiaohongshu] (mode: websocket)[39m
+2026-03-11T15:45:37.013+08:00 [info]: [ 'client ready' ]
+[90m2026-03-11T15:45:37.015+08:00[39m [34m[reload][39m [36mconfig hot reload applied (channels.feishu.appId, channels.feishu.appSecret, channels.feishu.accounts)[39m
+[90m2026-03-11T15:45:38.691+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: bot open_id resolved: ou_5ac1a1cd0f0cbf7dffedb1fd5476cddd[39m
+2026-03-11T15:45:38.697+08:00 [info]: [ 'event-dispatch is ready' ]
+[90m2026-03-11T15:45:38.700+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: starting WebSocket connection...[39m
+2026-03-11T15:45:38.703+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+[90m2026-03-11T15:45:38.707+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: WebSocket client started[39m
+2026-03-11T15:45:39.319+08:00 [info]: [ '[ws]', 'ws client ready' ]
+[90m2026-03-11T15:47:15.447+08:00[39m [31m[bonjour][39m [33mgateway name conflict resolved; newName="SM3360的MacBook Pro (OpenClaw) (3)"[39m
+[90m2026-03-11T15:47:15.453+08:00[39m [31m[bonjour][39m [33mgateway hostname conflict resolved; newHostname="openclaw-(3)"[39m
+2026-03-11T15:50:51.815+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a93a69b2aa781bc3/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      log_id: '20260311155041F6469C92C66A4852EAA7',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260311155041F6469C92C66A4852EAA7&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error'
+    }
+  ]
+]
+[90m2026-03-11T15:50:51.822+08:00[39m [33m[feishu][39m [36mignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a93a69b2aa781bc3/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant[39m
+[90m2026-03-11T15:50:51.824+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: received message from ou_f28515d3f9a408ac20e99531f39fde27 in oc_c9ac896b41211e21f62a1b1249cec23f (p2p)[39m
+[90m2026-03-11T15:50:51.835+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: Feishu[xiaohongshu] DM from ou_f28515d3f9a408ac20e99531f39fde27: 你现在是谁[39m
+[90m2026-03-11T15:50:51.841+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: dispatching to agent (session=agent:main:feishu:direct:ou_f28515d3f9a408ac20e99531f39fde27)[39m
+[90m2026-03-11T15:50:51.980+08:00[39m [34m[tools][39m [33mtools.profile (coding) allowlist contains unknown entries (apply_patch, cron, image). These entries won't match any tool unless the plugin is enabled.[39m
+[90m2026-03-11T15:50:56.455+08:00[39m [33m[feishu][39m [36mfeishu[xiaohongshu]: dispatch complete (queuedFinal=true, replies=1)[39m
